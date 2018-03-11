@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Microsoft Yahei';
+}
+
+#container{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+#logo{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#logo img{
+    width: 130px;
+}
+
+#sBox{
+    font-size: 0;
+}
+#sTxt{
+    height: 34px;
+    width: 450px;
+    line-height: 34px;
+    font-size: 14px;
+    border: 1px solid #999;
+    border-right-width: 0;
+    outline: 0;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+#sTxt:hover{
+    border-color: #555;
+}
+#sBox button{
+    height: 34px;
+    width: 100px;
+    font-size: 14px;
+    line-height: 34px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #fff;
+    background-color: #38f;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out 0s;
+}
+#sBox button:first-of-type{
+    margin-right: 2px;
+}
+#sBox button:hover{
+    background-color: #317ef3;
+}
+#rBtnTarget{
+    display: none;
+}
+
+#resBox{
+    margin-top: 50px;
+}
+#result{
+    width: 700px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+#result a{
+    color: #333;
+    text-decoration: none;
+}
+#result a li{
+    border-left: 5px solid #38f;
+    overflow: hidden;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: #dceaf4;
+    margin-bottom: 5px;
+
+    transition: border-left-width 0.3s ease 0s;
+}
+#result a li:last-of-type{
+    margin-bottom: 30px;
+}
+#result a li:hover{
+    border-left-width: 10px;
+}
+#result a li h3,
+#result a li p{
+    margin: 20px 0;
+}
+#result a li p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#result a li p:last-of-type{
+    font-size: 12px;
+    color: #666;
+}
